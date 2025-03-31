@@ -132,12 +132,12 @@ int main(void)
 	  if(dht11Read(&dht))
 	  {
 		  // 온습도 출력
-		  printf("dgreee : %d, humid : %d %% \n\r", dht.temperature, dht.humidity);
+		  printf("dgree : %d, humid : %d %% \n\r", dht.temperature, dht.humidity);
 
 	  }
 	  else
 	  {
-		  printf("no dataa in DHT11 \n\r");
+		  printf("no data in DHT11 \n\r");
 	  }
 	  HAL_Delay(2000);
 
